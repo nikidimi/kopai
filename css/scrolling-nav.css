@@ -35,7 +35,8 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background-image: url("../img/lopata.jpg");
+    background-position: center center;
 }
 
 .about-section {
@@ -57,4 +58,12 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #eee;
+}
+
+.overlay {
+    background-color: black;
+    padding-bottom: 200px;
+    opacity: 0.8;
+    color: white;
+    border-radius: 10px;
 }
