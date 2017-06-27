@@ -39,18 +39,14 @@ of those sections to manage the look and feel of the site. */
     background-position: center center;
 }
 
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-}
 
 .services-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
+    background-image: url("../img/traktor.jpg");
+    background-position: center center;
 }
 
 .contact-section {
@@ -58,12 +54,22 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #eee;
+    background-image: url("../img/road.jpg");
+    background-position: center center;
 }
 
 .overlay {
-    background-color: black;
+    background: rgba(0, 0, 0, 0.8);
     padding-bottom: 200px;
-    opacity: 0.8;
     color: white;
     border-radius: 10px;
+}
+
+.service-box {
+    text-align: left;
+    border: 1px solid;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.99);
 }
